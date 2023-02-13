@@ -1,3 +1,64 @@
-* {
-    background-color: purple;
+body {
+    margin: 0px;
+    display: flex;
+    font-size: smaller;
 }
+
+.image-wrapper {
+    overflow: hidden;
+    max-height: 545px;
+    flex-basis: 75%;
+}
+
+img {
+    height: 570px;
+    width: auto;
+}
+
+.blackbar {
+    background-color: black;    
+    flex-basis: 50%;                                            
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.part {
+    flex-basis: 100%;
+}
+
+.ad {
+    padding-top: 90px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.call-to-action {
+    padding: 20px;
+}
+
+.upper {
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+.middle {
+    box-shadow: 0 4px 2px -2px black;
+}
+
+.lower {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+button {
+    background-color: azure;
+}
+
+
+
+
+/* pc credit: Maria Pop */
