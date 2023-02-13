@@ -46,7 +46,12 @@ main {
 }
 
 .middle {
-    box-shadow: 0 4px 2px -2px black;
+    padding: 20px;
+    box-shadow: 10px 20px 3px black;
+}
+
+form {
+    display: flex;
 }
 
 .lower {
@@ -56,6 +61,9 @@ main {
 
 button {
     background-color: azure;
+    color: darkgrey;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 
