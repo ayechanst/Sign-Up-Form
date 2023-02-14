@@ -51,7 +51,9 @@ main {
 /* form related things */
 
 .middle {
-    padding: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
     font-size: xx-small;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: uppercase;
@@ -74,21 +76,33 @@ input:focus {
     outline: none;
 }
 
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
 pair {                      /*label and input*/
     padding-bottom: 10px;
 }
 
 .lower {
     background-color: aliceblue;
-    padding: 20px;
     font-size: x-small;
+}
+
+.button-container {
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 button {
     background-color: rgb(215, 153, 39);
     color: azure;
     border-radius: 10px;
-    padding: 10px;
+    padding: 7px;
+    border: none;
     cursor: pointer;
     font-size: x-small;
 }
