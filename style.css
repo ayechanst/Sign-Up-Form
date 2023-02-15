@@ -1,22 +1,58 @@
+@font-face {
+    font-family: odinFont;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+
 body {
     margin: 0px;
     display: flex;
     font-size: smaller;
+    height: 100%;
 }
 
 .image-wrapper {
     overflow: hidden;
-    max-height: 545px;
+    position: relative;
     flex-basis: 75%;
 }
 
-img {
-    height: 570px;
+#knight {
     width: auto;
+    height: 552px;
+    position: relative;
+    z-index: -1;
+}
+
+#viking {
+    height: 80px;
+    width: auto;
+    padding: 10px;
+}
+
+.banner-wrapper {
+    display: flex;
+    text-transform: uppercase; 
+    text-align: center;
+    font-size: 56px;
+    font-family: odinFont;
+    background-color: black;
+    opacity: 0.7;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 2em;
+}
+
+#banner {
+    padding-top: 20px;
+    opacity: 100%;
 }
 
 .blackbar {
     background-color: black;    
+    height: 552px;
     flex-basis: 50%;                                            
 }
 
